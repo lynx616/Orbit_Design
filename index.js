@@ -1,5 +1,5 @@
 var x = document.getElementById("myAudio");
-x.autoplay()=true;
+
 x.load()
 x.addEventListener("load", function() {
     x.play();
@@ -13,8 +13,5 @@ function myFunction() {
     x.pause();
    }
   
-   document.getElementsByClassName('sun').sun = 'sun';
+    document.getElementsByClassName('sun').sun = 'sun';
 }
-function ani() {
-    
-  }
